@@ -4,7 +4,7 @@ name = "aleX leNb"
 
 # index1 = name.find('e')
 # print(index1)
-# index2 = name.find('e', 3)
+index2 = name.find('e', 3)
 # print(index2)
 '''
 4，实现一个整数加法计算器(两个数相加)：
@@ -38,12 +38,11 @@ print(z)
 # 如：content = input(‘请输入内容：’)   # 如fhdal234slfh98769fjdla231
 # content = input('请输入内容：')
 # count = 0
-# for i in content:
+#  for i in content:
 #     if i.isdigit():
 #         count += 1
 #
 # print(count)
-,.
 
 
 # content = input("input:")

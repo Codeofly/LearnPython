@@ -9,10 +9,10 @@ str bool
     空字符串 False
     其他都是True
 '''
-# s1 = ''
-# if s1:
-#     print(666)
-# else:
-#     print(111)
-# s = str(True)
-# print(s,type(s))
+s1 = ''
+if s1:
+    print(666)
+else:
+    print(111)
+s = str(True)
+print(s,type(s))

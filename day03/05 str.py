@@ -134,7 +134,10 @@
 # #     print('您输入的由非数字元素')
 #*****len
 s = 'fdsafdsaf'
+print(s)
 print(len(s))
+
+print(s.count("a",0,len(s)))
 # count = 0
 # s = 'fdsafdsag'
 # # print(s[0])
