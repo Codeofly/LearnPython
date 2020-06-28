@@ -1,0 +1,168 @@
+https://www.cnblogs.com/jin-xin/articles/7459977.html
+1,自我介绍。
+2，立规矩。
+	1，自己的定位。
+	2，学会尊重。
+	3，严格要求自己。
+	4，迟到。
+
+3，计算机基础。
+	cpu：相当于人的大脑，运算与控制中心。    速度 飞机
+	
+	内存：4G，8G，16G....暂时存储，供给cpu数据。 
+	速度  高铁。成本高，断电即消失。
+	
+	硬盘：相当于你电脑的数据库，存储着大量数据，文件，小电影。
+	速度：走。  成本低，永久保存。
+	
+	操作系统：执行者，支配所有关系。windows，linux，cenos，.
+
+
+	
+
+4，python的历史。
+	Python崇尚优美、清晰、简单，是一个优秀并广泛使用的语言。
+	python2x,python3x,区别。
+		
+		python2x:源码混乱，重复代码较多，冗余。
+		python3x:源码规范，崇尚优美清晰，简单。
+		
+5，开发的分类。
+	
+	解释型：当程序运行时，将代码一行一行的解释成二进制，在运行。
+		优点：排错快，开发效率高，可以跨平台。
+		缺点：执行效率相对低。
+		典型：python。
+	
+	编译型：将代码一次性全部编译成二进制，然后在运行。
+		缺点：排错慢，开发效率低，不能跨平台。
+		优点：执行效率高。
+		典型：C。
+
+6，python的优缺点。
+7，python的种类。
+
+8，运行第一个python程序。
+	python 文件路径  回车
+	区别：python3x  print('内容')
+		  python2x  print() 或者 print '内容'
+		  
+		python3x 编码：utf-8
+		python2x 默认编码：ascii
+				 解决方式：在首行 # -*- encoding:utf-8 -*-
+
+	解决方法：全部卸载，卸载的同时，将环境变量相关删除。
+	找不到文件：
+9，变量。
+
+	1，变量必须由数字，字母，下划线任意组合。
+	2，变量不能以数字开头。
+	3，变量不能是python中的关键字。
+	['and', 'as', 'assert', 'break', 'class', 
+	'continue', 'def', 'del', 'elif', 'else', 
+	'except', 'exec', 'finally', 'for', 'from', 
+	'global', 'if', 'import', 'in', 'is', 'lambda',
+	'not', 'or', 'pass', 'print', 'raise', 'return', 
+	'try', 'while', 'with', 'yield']
+	4，变量要具有可描述性。
+		fdjsaf = '老男孩'
+	5，变量不能是中文。
+	6，变量不能太长。
+	7，官方推荐：
+		
+		#驼峰体
+
+		AgeOfOldboy = 56
+
+		NumberOfStudents = 100
+
+		#下划线
+
+		age_of_oldboy = 56
+
+		number_of_students = 80
+	
+	w__ = 22  T
+	e_a_ = '太白'  T
+	e$ = 'fdsa'  F
+	-_ = '15'  F
+	2g = 33 F数字不能开头
+	
+	__ = '老男孩'	T	
+	
+	
+10，常量。
+	不变的量：生日，身份证号，
+	python 规定没有，默认全部大写的变量 成为常量。
+	BIRTH = 19970425
+
+11，注释。
+	为什么有注释？
+	帮助你记起之前的代码，或者帮助别人看懂你的代码。
+	单行注释：#
+	多行注释：'''被注释内容'''    """被注释内容"""
+12，基础数据类型初始。
+	1,数字类型 int。
+	用于计算。
+	type() 判断此数据是什么数据类型。
+	
+13，用户交互。input
+	input 字符串数据类型。
+	python2x : raw_input()
+	python3x ：input()
+14，if语句。
+第一种结构：
+if 条件:
+	结果
+第二种结构：
+
+if 条件:
+	结果
+else:
+	结果
+第三种结构：
+choice = input('请输入你的猜的数字：')
+if choice == '2':
+	print('我请你吃饭')
+elif choice == '6':
+	print('免一周作业')
+elif choice == '3':
+	print('一起去大保健')
+第四种结构：
+choice = input('请输入你的猜的数字：')
+if choice == '2':
+	print('我请你吃饭')
+elif choice == '6':
+	print('免一周作业')
+elif choice == '3':
+	print('一起去大保健')
+else:
+	print('选择错误.....')
+第五种结构：
+if 条件:
+	if 条件:
+		结果
+	else:
+		结果
+else:
+	结果
+	
+int ---> str      str(12)
+str ---> int   '123'  '123q' 全部由数字组成的字符串才能转换成数字
+				int('123')
+
+15，while语句。
+
+while 条件:
+	结果
+	
+跳出循环的条件：
+	1，改变条件。
+	2，break。
+
+break : 结束循环。
+continue:结束本次循环，继续下一次循环。
+
+
+
+
