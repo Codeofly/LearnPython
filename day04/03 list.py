@@ -15,6 +15,7 @@ li = [1,'a','b','a',2,3,'老男孩']
 li.append('alex')
 print(li.append('alex'))
 li.append([1,2,3])
+print(li)
 
 # name_list = ['杰哥' ,'民歌','花心哥','狗友','芳芳']
 # while True:
@@ -26,11 +27,14 @@ li.append([1,2,3])
 # print(name_list)
 # print(li)
 #insert 插入
-
+li.insert(3,"3234")
+print(li)
 #extend 迭代添加,到最后
 # li.extend('ABC')
 # li.extend([1,2,3])
 # print(li)
+
+
 
 #删
 #pop 按索引删除
@@ -75,7 +79,7 @@ print(li)
 # for 循环
 # print(li[:3])
 # for i in li:
-#     print(i)
+# #     print(i)
 # l1 = [1, 2, 1, 7, 5, 4, 9, 8, 3]
 # #其他操作方法
 # #sort 从小到大，正向排序
