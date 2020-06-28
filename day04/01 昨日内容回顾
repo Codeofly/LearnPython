@@ -1,0 +1,49 @@
+格式化输出 %r
+
+基础数据类型初始：
+    int bit_lenth()
+    bool
+        str ---> bool  ‘’False   非空都是True
+    str：
+        索引和切片[起始索引:截止索引:步长]
+        s
+        s[-1] s[:]  s[:5]  s[-1:-5:-1]
+
+        find index 通过元素找索引，index找不到会报错，find找不到返回-1
+        upper  lower 全部大写，全部小写
+        replace（old,new,n）
+        center(width,'填充物')
+        startswith endswith
+        ，可切片判断，返回bool值
+        strip() 默认去除空格，换行符，tab等
+        strip('ab')  lstrip() rstrip()
+        split() 默认以空格分割，   str ---> list
+        split(n,次数)  rsplit()
+        format.
+            第一种：
+            msg = '{}{}'.format('alex',12)
+            第二种：
+            msg = '{0}{1}{0}'.format('alex',12)
+            第三种：
+            msg = '{name}{age}'.format(name = 'alex',age = 12)
+        captilize 首字母大写，其他字母小写。
+        swapcase 大小写翻转
+        title 每个单词首字母大写（非字母隔开）
+            'alex wusir2taibai#ll'.title()
+
+        isdigit() 全都是数字组成
+        isalpha() 全部由字母组成
+        isalnum() 全部由数字或者字母组成
+
+        len()
+        count()
+    for 循环
+        for 变量 in 可迭代对象：
+            pass
+
+2,作业讲解。
+3，for else
+4，list
+5，list的嵌套
+6，元组。
+7，range。
