@@ -61,6 +61,9 @@ dict
 
 python3x 中的编码：
     python3x 中 str 在内存中的编码方式是unicode。python3x 中的str不能直接存储，和发送。
+
+#    unicode不能存储和传输
+
     bytes 他的编码方式是非unicode（utf-8，gbk，gb2012.....）。
 
     对于英文：
