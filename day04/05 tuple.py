@@ -9,3 +9,5 @@ tu1[3].append('日天')
 print(tu1)
 #count len index
 li = [1,(1,2,3)]
+
+li.tul
