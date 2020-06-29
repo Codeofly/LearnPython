@@ -37,7 +37,8 @@ dic = {"name":"jin",
 # print(dic)
 # del dic['name']
 # print(dic)
-# dic.popitem()  # 随机删除 有返回值
+
+# dic.popitem()  # 随机删除 有返回值=元组
 # print(dic.popitem())
 # print(dic)
 '''
@@ -81,6 +82,8 @@ for i in dic.values():
 print(dic.items())
 for i in dic.items():
     print(i)
+    
+    
 # 特殊类型 dict 转化 成list
 print(list(dic.keys()))
 
