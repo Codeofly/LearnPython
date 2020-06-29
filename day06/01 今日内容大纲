@@ -1,0 +1,92 @@
+01 昨日内容回顾
+    dict:
+        键值对形式，键唯一，键必须是不可变的数据类型（可哈希的）
+        不可变：int str bool tuple 可哈希
+                s1 = 2  'alex'
+                s1 = 4
+                s1 = [1,2,3]
+                s1.append(666)
+        哈希表 hash
+    dict:
+        增：
+            dic['name'] = 'jin'
+            setdefault() 有则不变，无责添加。
+        删：
+            pop 按照键删除键值对
+            pop('name1',None)
+            clear  清空字典
+            del del dic
+                del dic['name']
+            popitem() 随机删除，返回删除的元祖形式的键值对
+        改：
+            dic['name'] = 'jin'
+            update
+        查：
+            dic['name']
+            dic.get('name','sb没有此键')
+            dic.keys() dic.values() dic.items()
+            li = list(dic.keys())
+            for i in dic.values():
+                pass
+            for k,v in dic.items():
+                pass
+02，作业讲解
+03，is == id
+04，小数据池
+05，编码2
+asiic : 字母，数字，特殊字符；8位 1个字节表示1个字符。
+unicode：万国码：
+        Q ：0000 0001 0000 0001 0000 0001 0000 0001
+        中：0000 0101 0000 0001 0000 0001 0000 0001
+utf-8:
+     a:  0000 0001
+    欧： 0000 0001 0000 0001
+    中： 0000 0001 0000 0001 0000 0001
+gbk：国标
+     a: 0000 0001
+    中：0000 0001 0000 0001
+
+1，编码之间的二进制互不识别。
+2，存储和传输010101，但是不能是unicode的0101010.
+
+数据类型：
+int
+bool
+
+str
+byte 与str的方法相同
+
+list
+dict
+
+python3x 中的编码：
+    python3x 中 str 在内存中的编码方式是unicode。python3x 中的str不能直接存储，和发送。
+    bytes 他的编码方式是非unicode（utf-8，gbk，gb2012.....）。
+
+    对于英文：
+        str： 表现形式：s = 'laonanhai'
+              内部编码：unicode
+        bytes:
+              表现形式：s = b'laonanhai'
+              内部编码：非unicode.
+    对于中文：
+        str： 表现形式： s = '中国'
+              内部编码：unicode
+        bytes:                  00000001
+              表现形式：s1 = b'\xe4\xb8\xad\xe5\x9b\xbd'
+              内部编码：非unicode.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
