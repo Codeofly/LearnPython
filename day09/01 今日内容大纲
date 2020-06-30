@@ -1,0 +1,75 @@
+01，昨日内容回顾
+文件操作：
+    1，打开文件，产生一个文件句柄。
+    2，对文件句柄进行操作。
+    3，关闭文件。
+        f = open()  函数，f 返回值。
+        f,文件句柄，一个符号。通过这个符号进行各种操作。
+        f = open('路径',encoding='utf-8')
+        f.read()
+        encoding is the name of the encoding used to decode or encode the
+    file. This should only be used in text mode. The default encoding is
+    platform dependent, but any encoding supported by Python can be
+    passed.  See the codecs module for the list of supported encodings.
+    读
+    r   默认可以不写mode 只读
+        f.read()  全部读出来
+        f.read(n)
+            ：对于r模式，按字符读取。
+            ：对于rb模式，按字节读取。
+        f.readline() 逐行读取
+        f.readlines() 将每一行当做一个元素，放在一个列表中。
+        for i in f:
+            print(i)
+    rb
+    r+
+    r+b
+
+    写
+        w   如果文件不存在，创建新文件，将内容写入。
+            如果文件存在，将原文件内容清空，写入新内容。
+        wb
+        w+
+        w+b
+
+    追加   如果文件不存在，创建新文件，将内容写入。
+           如果文件存在，将内容追加到原文件后面。
+     a
+     ab
+     a+
+     a+b
+
+    f.tell()  # 按字节去读光标位置
+    f.seek()  # 按照字节调整光标位置
+    f.truncate() 从当前指针位置截断，如果输入值，则为从头到指定输入位置截断
+    f.readable()  判断是否可读
+    f.writable() 判断是否可写
+
+    with open（）as f1,open() as f2.....:
+        pass
+
+f.tell()返回当前文件指针字节位置
+f.seek(<num>)  移动光标至某个字节
+f.fileno() 返回文件句柄在内核中的索引值
+f.flush() 强制刷新
+f.seekable() 判断文件是否能进行seek操作
+f.truncate() 从当前指针位置截断，如果输入值，则为从头到指定输入位置截断
+f.readable()  判断是否可读
+f.writable() 判断是否可写
+f.read() 按字符读取
+f.readline() 以行为单位读取
+
+02，作业讲解
+03，函数的初始
+04，函数名，函数体，关键字，函数的返回值。
+05，函数的传参。
+       两方面：
+
+            实参角度：
+                    1，位置传参。按顺序，一一对应。
+                    2，关键字传参,不按顺序,一一对应。
+                    3，混合传参,关键字参数永远在位置参数后面。
+            形参角度：
+                    1，位置传参。按顺序，一一对应。
+                    2，默认参数。传参则覆盖，不传则默认,默认参数永远在位置参数的后面。
+
