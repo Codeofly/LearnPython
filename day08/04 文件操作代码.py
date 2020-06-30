@@ -19,7 +19,7 @@ f.close()
 # print(content,type(content))
 # f.close()
 
-#2:一行一行的读
+# 2:一行一行的读
 # f = open('log',encoding='utf-8')
 # print(f.readline())
 # print(f.readline())
@@ -28,12 +28,12 @@ f.close()
 # print(f.readline())
 # f.close()
 
-#3:将原文件的每一行作为一个列表的元素。
+# 3:将原文件的每一行作为一个列表的元素。
 # f = open('log',encoding='utf-8')
 # print(f.readlines())
 # f.close()
 
-#4:读取一部分read（n）。
+# 4:读取一部分read（n）。
 # 在r模式下，read（n）按照字符去读取。
 # 在rb模式下，read（n）按照字节去读取。
 # f = open('log',encoding='utf-8')
@@ -44,7 +44,7 @@ f.close()
 # print(content)
 # f.close()
 
-#5:循环读取。
+# 5:循环读取。
 
 # f = open('log',encoding='utf-8')
 # for i in f:
@@ -52,19 +52,18 @@ f.close()
 # f.close()
 
 
-
-#非文字类的文件时，用rb
+# 非文字类的文件时，用rb
 # f = open('D:\护士老师主妇空姐联系方式.txt',mode='rb')
 # content = f.read()
 # print(content)
 # f.close()
 
 # w
-#没有文件，创建一个文件写入内容
+# 没有文件，创建一个文件写入内容
 # f = open('log1',encoding='utf-8',mode='w')
 # f.write('儿科王金发；剪短发了肯定撒就废了；就')
 # f.close()
-#有文件，将原文件内容清空，在写入内容。
+# 有文件，将原文件内容清空，在写入内容。
 # f = open('log1',encoding='utf-8',mode='w')
 # f.write('666')
 # f.close()
@@ -75,7 +74,7 @@ f.close()
 # f.close()
 
 # a
-#没有文件，创建一个文件追加内容
+# 没有文件，创建一个文件追加内容
 # f = open('log2',encoding='utf-8',mode='a')
 # f.write('666')
 # f.close()
@@ -175,74 +174,3 @@ f.close()
 #     c = y.read()
 #     z = c.replace('alex','SB')
 #
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
