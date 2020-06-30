@@ -120,3 +120,24 @@ txt护士老师主妇空姐联系方式.txt
         truncate
         writable()
         readable()
+
+f.close()  回收操作系统级 打开的文件
+
+del f   回收应用程序级的变量
+
+
+
+with open () as f
+
+功能一：自动关闭文件句柄。
+功能二：一次性操作多个文件句柄。
+
+with open('log',encoding='utf-8') as f:
+    print(f.read())
+with open('log1',encoding='utf-8') as f1:
+    print(f1.read())
+
+with open('log',encoding='utf-8') as f1,\
+    open('log1',encoding='utf-8') as f2:
+    print(f1.read())
+    print(f2.read())

@@ -119,7 +119,6 @@ f.close()
 #
 
 
-
 # #其他方法
 # # f = open('log',encoding='utf-8')
 # # print(f.read())
@@ -141,8 +140,10 @@ f.close()
 # # with open('log',encoding='utf-8') as f1,\
 # #     open('log1',encoding='utf-8') as f2:
 # #     print(f1.read())
-# #     print(f2.read())44
+# #     print(f2.read())
 #
+
+
 # # 1，将原文件读取到内存。
 # # 2，在内存中进行修改，形成新的内容。
 # # 3，将新的字符串写入新文件。
