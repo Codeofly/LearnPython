@@ -1,0 +1,73 @@
+数据类型补充：
+    （1） -- 》 int
+    （'str'） ---> str
+再循环列表或者字典中删除或者增加元素，可能会出错。
+
+tuple --> list  tuple(list)    list(tuple)
+int  str bool
+str -->list  split  join
+
+set 里面的元素，可哈希的，（int，str，bool，tuple），无序，不重复的，集合整体是不可哈希的。
+1，去重。  list（set） set（list）
+2，关系测试。
+
+增：
+    add 增加一个元素
+    update 迭代的增
+删：
+    pop 随机删除
+    remove  元素删除。
+    clear 清空
+    del set  直接删除集合。
+查 for 循环。
+len 元素的个数。
+
+交集： &
+并集：|
+反交集：^
+差集：set1 - set2
+子集：issubset
+超集：issuperset
+
+frozenset（set）
+
+a = [1,2,3,[22,33]]
+b = a
+a.append(666)
+[1,2,3,[22,33],666]
+a[3].append(666)
+b = [1,2,3,[22,33,666],666]
+赋值运算：完全引用一个。
+
+a = [1,2,3,[22,33]]
+b = a.copy()
+a.append(666)
+b = [1,2,3,[22,33]]
+a[3].append(666)
+b = [1,2,3,[22,33,666],666]
+# 第一层是独立的，从第二层开始，共用一个内存地址。
+dic = {
+    'name' :'alex'
+    'name_list':{'name':'alex1'},
+}
+import copy
+a = [1,2,3,[22,33]]
+b = copy.deepcopy(a)
+a.append(666)
+b = [1,2,3,[22,33]]
+a[3].append(666)
+b = [1,2,3,[22,33]]
+
+a = [1,2,3,[22,33]]
+b = a[:]
+
+py3:
+    s = 'alex'
+    s1 = s.encode('gbk')
+    s2 = s1.decode('gbk')
+
+    s = b"laonanhai" （utf-8）
+    s3 = s.decode('utf-8').encode('gbk')
+
+
+

@@ -1,0 +1,122 @@
+txt护士老师主妇空姐联系方式.txt
+
+参数： 1，文件路径。
+      2，编码方式。encode。
+      3，执行动作（打开方式）：只读，只写，追加，读写，写读....
+
+      读：
+        ***r，只读。
+            1,文件以什么编码方式存储的，就以什么编码方式打开。
+                # 编码不一致时：UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 0: invalid start byte
+            2，文件路径。
+                绝对路径:从根目录开始，一级一级查找直到找到文件。  D:\护士老师主妇空姐联系方式.txt
+                相对路径:在同一个文件夹下，直接写文件名即可。
+                /U//UU
+                #'C:\log.txt'
+                    第一种：r'C:\log.txt'
+                    第二种：C:\\log.txt
+                        as.txt
+
+            ****五种方式：
+                # 1:全部读出来f.read()
+                # f = open('log',encoding='utf-8')
+                # content = f.read()
+                # print(content,type(content))
+                # f.close()
+
+                #2:一行一行的读
+                # f = open('log',encoding='utf-8')
+                # print(f.readline())
+                # print(f.readline())
+                # print(f.readline())
+                # print(f.readline())
+                # print(f.readline())
+                # f.close()
+
+                #3:将原文件的每一行作为一哥列表的元素。
+                # f = open('log',encoding='utf-8')
+                # print(f.readlines())
+                # f.close()
+
+                #4:读取一部分read（n）。
+                # 在r模式下，read（n）按照字符去读取。
+                # 在rb模式下，read（n）按照字节去读取。
+                # f = open('log',encoding='utf-8')
+                # print(f.read(3))
+                # f.close()
+                # f = open('log',mode='rb')
+                # content = f.read(4)
+                # print(content)
+                # f.close()
+
+                #5:循环读取。
+
+                f = open('/Users/liyan/PycharmProjects/LearnPython/day08/01 昨日内容回顾',encoding='utf-8')
+                for i in f:
+                    print(i.strip())
+                f.close()
+
+
+
+        rb，只读，以bytes类型读取。
+            #非文字类的文件时，用rb
+            f = open('D:\护士老师主妇空姐联系方式.txt',mode='rb')
+            content = f.read()
+            print(content)
+            f.close()
+
+       **# r+ 先读，后追加 一定要先读后写
+        # f = open('log',encoding='utf-8',mode='r+')
+        # content = f.read()
+        # print(content)
+        # f.write('aaa')
+        # f.close()
+
+        #错误的
+        # f = open('log',encoding='utf-8',mode='r+')
+        # f.write('BBB')
+        # content = f.read()
+        # print(content)
+        # f.close()
+       r+b
+
+
+
+
+
+      写：
+            *w
+
+                #没有文件，创建一个文件写入内容
+                # f = open('log1',encoding='utf-8',mode='w')
+                # f.write('儿科王金发；剪短发了肯定撒就废了；就')
+                # f.close()
+                #有文件，将原文件内容清空，在写入内容。
+                # f = open('log1',encoding='utf-8',mode='w')
+                # f.write('666')
+                # f.close()
+            wb
+                # wb
+                # f = open('log',mode='wb')
+                # f.write('老男孩教育'.encode('utf-8'))
+                # f.close()
+            w+
+            w+b
+
+      追加：*a
+
+            ab
+
+            a+
+            a+b
+
+      操作方法：
+        read
+        read（n）
+        readline()
+        readlines()
+        tell
+        seek
+        truncate
+        writable()
+        readable()
