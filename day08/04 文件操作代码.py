@@ -104,6 +104,7 @@ f.close()
 # # f.seek(3)  # 按照字节调整光标位置
 # # print(f.read())
 # # f.close()
+
 # #w+b
 #
 #
@@ -113,8 +114,12 @@ f.close()
 # # content = f.read()
 # # print(content)
 # # f.close()
+
 # #a+b
 #
+
+
+
 # #其他方法
 # # f = open('log',encoding='utf-8')
 # # print(f.read())
@@ -124,6 +129,8 @@ f.close()
 # # f = open('log',encoding='utf-8',mode='a')
 # # f.truncate(7) # 按字节对原文件截取
 # # f.close()
+
+
 # #功能一：自动关闭文件句柄。
 # #功能二：一次性操作多个文件句柄。
 # # with open('log',encoding='utf-8') as f:
