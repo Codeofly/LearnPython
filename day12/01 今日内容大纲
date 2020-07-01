@@ -1,0 +1,39 @@
+01，上周内容回顾
+函数名：
+def func():
+    pass
+1，变量。
+    f = func
+    f()
+2,函数名可以作为容器类的元素。
+li = [func1(),func2(),func3()]
+li = [func1,func2,func3]
+3,函数名可以作为函数的参数。
+def func():
+    pass
+def func1(a):
+    a()
+func1(func)
+4,函数名可以作为函数的返回值。
+def func1(a):
+    return a
+func1(func)()
+
+闭包：
+内层函数对外层函数的变量（非全局变量）的引用。
+python遇到闭包，有一个机制，会开辟一个空间，将闭包中的所有的变量等存储起来，不随着函数的结束而关闭。
+闭包的完美体现：装饰器。
+
+def wrapper(f):
+    def inner(*args,**kwargs):
+        '''执行函数之前的相关操作'''
+        ret = f(*args,**kwargs)
+        '''执行函数之后的相关操作'''
+        return ret
+    return inner
+
+
+02，函数的有用信息
+03，带参数的装饰器
+04，多个装饰器装饰一个函数
+05，作业讲解。

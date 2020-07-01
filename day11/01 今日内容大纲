@@ -1,0 +1,87 @@
+1，昨日内容回顾
+动态参数。
+*args所有的无特殊意义的位置参数，放到一个元组中。
+**kwargs所有的无特殊意义的关键字参数，放到一个字典中。
+
+def func(位置参数，*args，默认参数，**kwargs):
+    pass
+def func(*args，**kwargs):
+    pass
+*的魔法应用：
+在函数的执行（调用）时：打散。
+    *可迭代对象（str，tuple，list，dict（key））每一个元素添加到args元组中。
+    **dict 将字典的键值对添加到kwargs字典中。
+
+在函数的定义时： 聚合。
+    *args将所有的位置参数聚合到一个元组中。
+    **kwargs 将所有的关键字参数聚合到一个字典中。
+
+
+2，函数名的应用
+3，闭包
+4，装饰器的初识
+在不改变原函数的执行的情况下，为原函数增加额外的功能。
+
+def func1():
+    print('你有病呀，领导，测试我的执行效率干甚。')
+
+# def func2():
+#     print('你有病呀，领导，测试我的执行效率干甚。')
+def timmer(f):  # f = func1
+    def inner():
+        start_time = time.time()
+        f()  #  func1()
+        time.sleep(0.3)
+        end_time = time.time()
+        print('此函数的执行效率%s' % (end_time - start_time))
+    return inner
+
+func1 = timmer(func1)  # inner
+func1()  # inner()
+
+最简单版本的装饰器
+def timmer(f):  # f = func1
+    def inner():
+        start_time = time.time()
+        f()  #  func1()
+        time.sleep(0.3)
+        end_time = time.time()
+        print('此函数的执行效率%s' % (end_time - start_time))
+    return inner
+# 语法糖@
+
+@timmer  # func1 = timmer(func1)
+def func1():
+    print('你有病呀，领导，测试我的执行效率干甚。')
+
+func1()  # inner()
+
+
+
+
+5，被装饰函数带参数的装饰器
+
+def timmer(f):  # f = func1 函数名
+    def inner(*args,**kwargs):
+        start_time = time.time()
+        f(*args,**kwargs)
+        time.sleep(0.3)
+        end_time = time.time()
+        print('此函数的执行效率%s' % (end_time - start_time))
+    return inner
+
+@timmer # func1 = timmer(func1) # inner
+def func1(a,b):
+    print(a,b)
+    print('你有病呀，领导，测试我的执行效率干甚。')
+
+@timmer
+def func2(a,b,c,d):
+    print(a,b,c,d)
+    print('你有病呀，领导，测试我的执行效率干甚。')
+
+func1(1,2)  # inner()
+func2(2,3,4,5)
+
+6，带返回值的装饰器。
+7，作业讲解。1
