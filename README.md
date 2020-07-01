@@ -6,6 +6,7 @@ python学习
 
 #### 知识点
 [day01](https://gitee.com/liyan_gitee/LearnPython/blob/master/day01/课上笔记.txt)
+[day01](https://gitee.com/-/ide/project/liyan_gitee/LearnPython/edit/master/-/day01/课上笔记.txt)
 day02
 day03
 day04
