@@ -1,7 +1,7 @@
 # LearnPython
 
 #### 介绍
-python学习
+`python`学习
 
 
 #### 知识点
