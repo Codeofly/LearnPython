@@ -119,7 +119,7 @@ f4()
 # wraaper()()
 # ret = wraaper()  # inner
 # ret()  # inner()
-
+# --------------------------------
 # 闭包：就是内层函数对外层函数（非全局）变量的引用。
 # 如何判断  内层函数名.__closure__  cell 就是=闭包
 
@@ -131,22 +131,27 @@ f4()
 #     print(inner.__closure__)  # cell
 
 # wraaper1()
-
-
+# --------------------------------
 # name = '老男孩'
+#
+#
 # def wraaper2():
 #     name1 = 'alex'
+#
 #     def inner():
 #         print(name)
 #         print(name1)
+#
 #     inner()
-#     print(inner.__closure__)  #  None
+#     print(inner.__closure__)  # None
+#
+#
 # wraaper2()
 
 # 面试题 闭包
 # name = '老男孩'
 # def wraaper2(n):
-#     #  n = '老男孩' 相当于
+#     #  n = '老男孩' print(n)相当于引用的是 n = '老男孩'
 #     def inner():
 #         print(n)
 #     inner()
@@ -157,6 +162,7 @@ f4()
 # 他会永远开辟一个内存空间，将闭包中的变量等值放入其中，不会随着函数的执行完毕而消失。
 
 # from urllib.request import urlopen
+
 # content1 = urlopen('http://www.cnblogs.com/jin-xin/articles/8259929.html').read().decode('utf-8')
 # content2 = urlopen('http://www.cnblogs.com/jin-xin/articles/8259929.html').read().decode('utf-8')
 # content3 = urlopen('http://www.cnblogs.com/jin-xin/articles/8259929.html').read().decode('utf-8')

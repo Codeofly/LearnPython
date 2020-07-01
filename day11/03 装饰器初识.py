@@ -1,4 +1,7 @@
+import time
 from functools import wraps
+
+
 # def func1():
 #     print('你有病呀，领导，测试我的执行效率干甚。')
 
@@ -8,7 +11,7 @@ from functools import wraps
 # time.sleep(0.3)
 # end_time = time.time()
 # print('此函数的执行效率%s' % (end_time - start_time))
-
+# -------------------------------------------------------------------------
 # def func1():
 #     print('你有病呀，领导，测试我的执行效率干甚。')
 #
@@ -30,27 +33,41 @@ from functools import wraps
 # func1 = timmer  # 新变量func1 = timmer
 # func1(f1)
 
-
-# def func2():
+# -------------------------------------------------------------------------
+# def func1():
 #     print('你有病呀，领导，测试我的执行效率干甚。')
+#
+#
 # def timmer(f):  # f = func1
 #     def inner():
 #         start_time = time.time()
-#         f()  #  func1()
+#         f()  # func1()
 #         time.sleep(0.3)
 #         end_time = time.time()
 #         print('此函数的执行效率%s' % (end_time - start_time))
-#     return inner
-# # 语法糖@
 #
-# @timmer  # func1 = timmer(func1)
+#     return inner
+
+# -------------------------------------------------------------------------
+# # 语法糖@
+# def timmer(f):
+#     def inner():
+#         start_time = time.time()
+#         f()  # func1()
+#         time.sleep(0.3)
+#         end_time = time.time()
+#         print('此函数的执行效率%s' % (end_time - start_time))
+#
+#     return inner
+#
+#
+# @timmer  # func1 = timmer(func1)   # 装饰器
 # def func1():
 #     print('你有病呀，领导，测试我的执行效率干甚。')
-
-# func1 = timmer(func1)  # inner
+#
+#
 # func1()  # inner()
-
-
+# -------------------------------------------------------------------------
 # def timmer(f):  # f = func1 函数名
 #     def inner(*args,**kwargs):
 #         start_time = time.time()
@@ -72,6 +89,7 @@ from functools import wraps
 #
 # func1(1,2)  # inner()
 # func2(2,3,4,5)
+# -------------------------------------------------------------------------
 # def timmer(f):  # f = func1 函数名
 #     def inner(*args,**kwargs):
 #         start_time = time.time()
@@ -91,8 +109,7 @@ from functools import wraps
 #
 # print('************',func1(1,2))
 
-
-
+# -------------------------------------------------------------------------
 # def f1():
 #     print(666)
 # f = f1
@@ -100,6 +117,7 @@ from functools import wraps
 # a = 5
 # a = 4 +3
 # print(a)
+# -------------------------------------------------------------------------
 # def func2(a1,b1):
 #     print(a1,b1)
 #
@@ -107,16 +125,18 @@ from functools import wraps
 #     func2(a,b)
 # func3(1,2)
 
+# -------------------------------------------------------------------------
+def wrapper(func):
+    def inner(*args, **kwargs):
+        """被装饰函数之前"""
+        ret = func(*args, **kwargs)
+        '''被装饰函数之后'''
+        return ret
 
-# def wrapper(func):
-#     def inner(*args,**kwargs):
-#         '''被装饰函数之前'''
-#         ret = func(*args,**kwargs)
-#         '''被装饰函数之后'''
-#         return ret
-#     return inner
-#
-# @wrapper
-# def func(a,b):
-#     pass
-#     return 566
+    return inner
+
+
+@wrapper
+def func(a, b):
+    pass
+    return 566
