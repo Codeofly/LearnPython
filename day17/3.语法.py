@@ -82,8 +82,6 @@ print(moumou.hp)
 # alex['anme']()
 
 
-
-
 # alex = Person('a_sb','不详',1,5)
 # alex.__dict__['name'] = 'alex'
 # print(alex.name)
