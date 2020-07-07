@@ -18,7 +18,7 @@
 # 迭代器
 # l1 = [1,2,3]
 # 可迭代对象转化成迭代器：可迭代对象.__iter__()  --->迭代器
-#迭代器不仅含有__iter__,还含有__next__。遵循迭代器协议。
+# 迭代器不仅含有__iter__,还含有__next__。遵循迭代器协议。
 # l1_obj = l1.__iter__()  # 迭代器
 # print('__iter__' in  dir(l1_obj))
 # print('__next__' in  dir(l1))
@@ -29,7 +29,7 @@
 # print(l1_obj.__next__())
 # for i in l1_obj:
 #     print(i)
-#判断迭代器：
+# 判断迭代器：
 # print('__iter__' in  dir(l1_obj))
 # print('__next__' in  dir(l1_obj))
 # from collections import Iterator
@@ -38,7 +38,7 @@
 # 1，节省内存空间。
 # 2，满足惰性机制。
 # 3，不能反复取值，不可逆。
-l2 = [1, 2, 3, 4, 5, 6, 7, 8]
+# l2 = [1, 2, 3, 4, 5, 6, 7, 8]
 # for i in l2:
 #     print(i)
 '''

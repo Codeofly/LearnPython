@@ -1,0 +1,37 @@
+011 上周内容回顾
+max求最大值max(key,iterable)
+min求最小值min(key,iterable)
+sum 求和。
+bool
+enumrate 枚举。
+filter过滤 filter(func,[1,2,3,4]) 筛选模式
+map(func,[1,2,3,4]) 循环模式
+abs绝对值
+format
+zip拉链方法
+print
+all 全是True
+any 有一个。
+golbals
+locals
+int
+str
+sorted排序，key
+reversed 翻转，迭代器。
+dir 查看所有的方法。
+len() 测量长度，个数。
+type()类型。
+range 可迭代对象。数字列表
+divmod（除数，被除数）-->(商，余数)
+open 操作文件。
+eval
+exec
+id
+bytes
+
+01，递归函数
+
+
+
+
+02，二分查找法

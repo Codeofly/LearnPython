@@ -1,0 +1,41 @@
+01 昨日内容回顾
+    可迭代对象：内部含有__iter__方法的可迭代对象，可迭代协议。
+        可迭代对象：str，list，tuple，dict，set，range
+        迭代器：f文件句柄, enmurate枚举。
+
+    迭代器：内部含有__iter__和__next__方法的就是迭代器，迭代器协议。
+
+    方法一：
+        __iter__ __next__ in dir(对象)
+    方法二：
+        from collections import Iterable
+        from collections import Iterator
+        isinstance(对象，Iterable)
+        isinstance(对象，Iterator)
+    迭代器的特点：
+        1，节省内存。
+        2，满足惰性机制。
+        3，不可逆，不能反复。
+    for 循环：
+        1，将可迭代对象转化成迭代器。 可迭代对象.__iter__() --->迭代器
+        2，利用__next__取值。
+        3，用异常处理，解决报错。
+    1 = [1,2,3]
+    l_obj = l.__iter__()
+    while True:
+        try:
+            print(l_obj.__next__())
+        except Exception:
+            break
+
+    生成器：他的本质就是迭代器。
+    生成器：自己用代码写的。
+        1，用生成器函数。
+            函数中遇到yield这就是生成器。
+        2，生成器推导式。
+        3，数据转化。
+
+02，生成器
+
+03，内置函数。
+04，匿名函数。
