@@ -1,0 +1,15 @@
+Mon, 23 Apr 18 11:33:06 4.logging模块.py[line:29] DEBUG debug message
+Mon, 23 Apr 18 11:33:06 4.logging模块.py[line:30] INFO info message
+Mon, 23 Apr 18 11:33:06 4.logging模块.py[line:31] WARNING warning message
+Mon, 23 Apr 18 11:33:06 4.logging模块.py[line:32] ERROR error message
+Mon, 23 Apr 18 11:33:06 4.logging模块.py[line:33] CRITICAL critical message
+Mon, 23 Apr 18 11:34:02 4.logging模块.py[line:29] DEBUG debug message
+Mon, 23 Apr 18 11:34:02 4.logging模块.py[line:30] INFO info message
+Mon, 23 Apr 18 11:34:02 4.logging模块.py[line:31] WARNING warning message
+Mon, 23 Apr 18 11:34:02 4.logging模块.py[line:32] ERROR error message
+Mon, 23 Apr 18 11:34:02 4.logging模块.py[line:33] CRITICAL critical message
+Mon, 23 Apr 18 11:34:10 4.logging模块.py[line:29] DEBUG b'debug message'
+Mon, 23 Apr 18 11:34:10 4.logging模块.py[line:30] INFO info message
+Mon, 23 Apr 18 11:34:10 4.logging模块.py[line:31] WARNING warning message
+Mon, 23 Apr 18 11:34:10 4.logging模块.py[line:32] ERROR error message
+Mon, 23 Apr 18 11:34:10 4.logging模块.py[line:33] CRITICAL critical message

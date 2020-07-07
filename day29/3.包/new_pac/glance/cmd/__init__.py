@@ -1,0 +1,1 @@
+from new_pac.glance.cmd import manage

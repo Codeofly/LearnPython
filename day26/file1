@@ -1,0 +1,171 @@
+import hashlib
+# 密文验证
+# m = hashlib.md5() # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 永远不会变
+# m = hashlib.md5(b'bilibili') # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 固定的盐 自己注册你的用户 500
+# 数据库
+# 动态加盐
+# user = b'bilibili'
+# m = hashlib.md5(user[::-1]) # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+
+# 文件的一致性校验
+import hashlib
+import hashlib
+# 密文验证
+# m = hashlib.md5() # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 永远不会变
+# m = hashlib.md5(b'bilibili') # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 固定的盐 自己注册你的用户 500
+# 数据库
+# 动态加盐
+# user = b'bilibili'
+# m = hashlib.md5(user[::-1]) # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+
+# 文件的一致性校验
+import hashlib
+import hashlib
+# 密文验证
+# m = hashlib.md5() # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 永远不会变
+# m = hashlib.md5(b'bilibili') # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 固定的盐 自己注册你的用户 500
+# 数据库
+# 动态加盐
+# user = b'bilibili'
+# m = hashlib.md5(user[::-1]) # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+
+# 文件的一致性校验
+import hashlib
+import hashlib
+# 密文验证
+# m = hashlib.md5() # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 永远不会变
+# m = hashlib.md5(b'bilibili') # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 固定的盐 自己注册你的用户 500
+# 数据库
+# 动态加盐
+# user = b'bilibili'
+# m = hashlib.md5(user[::-1]) # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+
+# 文件的一致性校验
+import hashlib
+import hashlib
+# 密文验证
+# m = hashlib.md5() # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 永远不会变
+# m = hashlib.md5(b'bilibili') # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 固定的盐 自己注册你的用户 500
+# 数据库
+# 动态加盐
+# user = b'bilibili'
+# m = hashlib.md5(user[::-1]) # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+
+# 文件的一致性校验
+import hashlib
+import hashlib
+# 密文验证
+# m = hashlib.md5() # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 永远不会变
+# m = hashlib.md5(b'bilibili') # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 固定的盐 自己注册你的用户 500
+# 数据库
+# 动态加盐
+# user = b'bilibili'
+# m = hashlib.md5(user[::-1]) # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+
+# 文件的一致性校验
+import hashlib
+import hashlib
+# 密文验证
+# m = hashlib.md5() # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 永远不会变
+# m = hashlib.md5(b'bilibili') # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 固定的盐 自己注册你的用户 500
+# 数据库
+# 动态加盐
+# user = b'bilibili'
+# m = hashlib.md5(user[::-1]) # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+
+# 文件的一致性校验
+import hashlib
+import hashlib
+# 密文验证
+# m = hashlib.md5() # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 永远不会变
+# m = hashlib.md5(b'bilibili') # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 固定的盐 自己注册你的用户 500
+# 数据库
+# 动态加盐
+# user = b'bilibili'
+# m = hashlib.md5(user[::-1]) # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+
+# 文件的一致性校验
+import hashlib
+import hashlib
+# 密文验证
+# m = hashlib.md5() # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 永远不会变
+# m = hashlib.md5(b'bilibili') # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+# 固定的盐 自己注册你的用户 500
+# 数据库
+# 动态加盐
+# user = b'bilibili'
+# m = hashlib.md5(user[::-1]) # 创建了一个md5算法的对象
+# m.update('123456'.encode('utf-8'))
+# print(m.hexdigest())
+
+# 文件的一致性校验
+import hashlib
