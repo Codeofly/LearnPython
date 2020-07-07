@@ -42,7 +42,7 @@ def age(2):
         
 def age(1):
     if n == 1:
-        return 18
-    else:
-        return age(0) + 2
+        return 18             18 
+    else: 
+        return age(0) + 2   ...
 '''
