@@ -3,12 +3,14 @@
 
 # 人狗大战
 class Person:
-    def __init__(self,name,sex,hp,ad):
+    def __init__(self,name,sex,hp,ad,age):
         self.name = name     # 对象属性 属性
         self.sex = sex
         self.hp = hp         #血量
         self.ad = ad         #攻击力
         self.money = 0
+
+
     def attack(self,d):
         d.hp -= self.ad
         print('%s攻击了%s，%s掉了%s点血'%(self.name,d.name,d.name,self.ad))
