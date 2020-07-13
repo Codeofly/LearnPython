@@ -21,16 +21,16 @@
 | [day10](https://gitee.com/liyan_gitee/LearnPython/tree/master/day10)| 动态参数、名称空间，临时名称空间、函数的嵌套、关键字：global，nonlocal |
 | [day11](https://gitee.com/liyan_gitee/LearnPython/tree/master/day11)| 函数名的应用、装饰器初识 |
 | [day12](https://gitee.com/liyan_gitee/LearnPython/tree/master/day12)| 函数的有用信息、带参数的装饰器、多个装饰器装饰一个函数 |
-| [day13](https://gitee.com/liyan_gitee/LearnPython/tree/master/day13)|  |
-| [day14](https://gitee.com/liyan_gitee/LearnPython/tree/master/day14)|  |
-| [day15](https://gitee.com/liyan_gitee/LearnPython/tree/master/day15)|  |
+| [day13](https://gitee.com/liyan_gitee/LearnPython/tree/master/day13)| 迭代器、生成器 |
+| [day14](https://gitee.com/liyan_gitee/LearnPython/tree/master/day14)| 列表推导式，生成器表达式、内置函数、匿名函数 |
+| [day15](https://gitee.com/liyan_gitee/LearnPython/tree/master/day15)| 递归函数、二分查找 |
 | [day16](https://gitee.com/liyan_gitee/LearnPython/tree/master/day16)|  |
-| [day17](https://gitee.com/liyan_gitee/LearnPython/tree/master/day17)|  |
-| [day18](https://gitee.com/liyan_gitee/LearnPython/tree/master/day18)|  |
-| [day19](https://gitee.com/liyan_gitee/LearnPython/tree/master/day19)|  |
-| [day20](https://gitee.com/liyan_gitee/LearnPython/tree/master/day20)|  |
-| [day21](https://gitee.com/liyan_gitee/LearnPython/tree/master/day21)|  |
-| [day22](https://gitee.com/liyan_gitee/LearnPython/tree/master/day22)|  |
+| [day17](https://gitee.com/liyan_gitee/LearnPython/tree/master/day17)| 面向对象、语法 |
+| [day18](https://gitee.com/liyan_gitee/LearnPython/tree/master/day18)| 面向对象2、命名空间和作用域、面向对象的实例、初识面向对象小结 |
+| [day19](https://gitee.com/liyan_gitee/LearnPython/tree/master/day19)| 组合、组合实例、继承 |
+| [day20](https://gitee.com/liyan_gitee/LearnPython/tree/master/day20)| Object类、继承与派生、钻石继承问题、钻石继承的深度优先 |
+| [day21](https://gitee.com/liyan_gitee/LearnPython/tree/master/day21)| 归一化设计、接口类和抽象类、接口隔离原则、多态 |
+| [day22](https://gitee.com/liyan_gitee/LearnPython/tree/master/day22)| 封装、property方法、classmethod和staticmethod |
 | [day23](https://gitee.com/liyan_gitee/LearnPython/tree/master/day23)|  |
 | [day24](https://gitee.com/liyan_gitee/LearnPython/tree/master/day24)|  |
 | [day25](https://gitee.com/liyan_gitee/LearnPython/tree/master/day25)|  |
