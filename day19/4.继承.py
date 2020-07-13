@@ -1,7 +1,7 @@
 # 面向对象的三大特性
-    # 继承  1.8天
-    # 多态  0.2天
-    # 封装  1天
+# 继承  1.8天
+# 多态  0.2天
+# 封装  1天
 
 # 初识继承
 
@@ -48,18 +48,21 @@
 # 子类 ：派生类
 class Animal:
     role = 'Animal'
-    def __init__(self,name,hp,ad):
-        self.name = name     # 对象属性 属性
-        self.hp = hp         #血量
-        self.ad = ad         #攻击力
+
+    def __init__(self, name, hp, ad):
+        self.name = name  # 对象属性 属性
+        self.hp = hp  # 血量
+        self.ad = ad  # 攻击力
 
     def eat(self):
-        print('%s吃药回血了'%self.name)
+        print('%s吃药回血了' % self.name)
+
 
 class Person(Animal):
     r = 'Person'
-    def attack(self,dog):   # 派生方法
-        print("%s攻击了%s"%(self.name,dog.name))
+
+    def attack(self, dog):  # 派生方法
+        print("%s攻击了%s" % (self.name, dog.name))
 
     def eat2(self):
         print('执行了Person类的eat方法')
@@ -67,9 +70,11 @@ class Person(Animal):
         self.money -= 10
         self.hp += 10
 
+
 class Dog(Animal):
-    def bite(self,person):  # 派生方法
+    def bite(self, person):  # 派生方法
         print("%s咬了%s" % (self.name, person.name))
+
 
 # 先有了人 狗两个类
 # 发现两个类有相同的属性、方法
@@ -108,15 +113,17 @@ class Dog(Animal):
 class Parent:
     def func(self):
         print('in parent func')
+
     def __init__(self):
         self.func()
+
 
 class Son(Parent):
     def func(self):
         print('in son func')
 
-s = Son()
 
+s = Son()
 
 
 # 作业 ：
