@@ -9,4 +9,8 @@
 
 | 知识点 | 日期（连接） | Web IDE |   
 | :---: | :---: | :---: | 
-| 内容2 | [day01](https://gitee.com/liyan_gitee/LearnPython/blob/master/day01/课上笔记.txt) | [day01_Web IDE](https://gitee.com/-/ide/project/liyan_gitee/LearnPython/edit/master/-/day01/课上笔记.txt)  |
+|  | [day01]()| python的历史、开发的分类、变量、常量、注释、基础数据类型初始、input、if语句、while语句 |
+|  | [day02]()| pycharm使用、in/not in、while else、格式化输出、运算符、编码 |
+|  | [day03]()| int、bool、str |
+|  | [day04]()| list、list嵌套、tuple、range |
+|  | [day04]()| list、list嵌套、tuple、range |
