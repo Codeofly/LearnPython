@@ -24,7 +24,6 @@
 | [day13](https://gitee.com/liyan_gitee/LearnPython/tree/master/day13)| 迭代器、生成器 |
 | [day14](https://gitee.com/liyan_gitee/LearnPython/tree/master/day14)| 列表推导式，生成器表达式、内置函数、匿名函数 |
 | [day15](https://gitee.com/liyan_gitee/LearnPython/tree/master/day15)| 递归函数、二分查找 |
-| [day16](https://gitee.com/liyan_gitee/LearnPython/tree/master/day16)|  |
 | [day17](https://gitee.com/liyan_gitee/LearnPython/tree/master/day17)| 面向对象、语法 |
 | [day18](https://gitee.com/liyan_gitee/LearnPython/tree/master/day18)| 面向对象2、命名空间和作用域、面向对象的实例、初识面向对象小结 |
 | [day19](https://gitee.com/liyan_gitee/LearnPython/tree/master/day19)| 组合、组合实例、继承 |
