@@ -24,3 +24,4 @@ a = A("a", "1234")
 print(a.name)
 
 print(str(a))
+print(str(a.name))
