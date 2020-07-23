@@ -9,8 +9,7 @@
 
 | 日期（连接） | 知识点 |   
 | :---: | :---: | :---: | 
-| python的历史<br>
-开发的分类<br>变量<br>常量<br>注释<br>基础数据类型初始<br>input<br>if语句<br>while语句 |[day01](https://gitee.com/Codeofly/LearnPython/tree/master/day01)| |
+| python的历史<br>开发的分类<br>变量<br>常量<br>注释<br>基础数据类型初始<br>input<br>if语句<br>while语句 |[day01](https://gitee.com/Codeofly/LearnPython/tree/master/day01)| |
 | [day02](https://gitee.com/Codeofly/LearnPython/tree/master/day02)| pycharm使用、in/not in、while else、格式化输出、运算符、编码 |
 | [day03](https://gitee.com/Codeofly/LearnPython/tree/master/day03)| int、bool、str |
 | [day04](https://gitee.com/Codeofly/LearnPython/tree/master/day04)| list、list嵌套、tuple、range |
