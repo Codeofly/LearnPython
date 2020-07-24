@@ -4,7 +4,7 @@
 `python`学习
 
 
-#### 知识点
+#### 目录
 
 
 | 知识点 | gitee | github |
@@ -35,7 +35,7 @@
 |  | [day25](https://gitee.com/Codeofly/LearnPython/tree/master/day25)| [day25](https://github.com/Codeofly/LearnPython/tree/master/day25) |
 |  | [day26](https://gitee.com/Codeofly/LearnPython/tree/master/day26)| [day26](https://github.com/Codeofly/LearnPython/tree/master/day26) |
 |  | [day27](https://gitee.com/Codeofly/LearnPython/tree/master/day27)| [day27](https://github.com/Codeofly/LearnPython/tree/master/day27) |
-|  | [day28](https://gitee.com/Codeofly/LearnPython/tree/master/day28)| [day28](https://github.com/Codeofly/LearnPython/tree/master/day28) |
+| os模块<br>os.pash：os.path.abspath(path)	返回绝对路径<br>os.path.basename(path)	返回文件名<br>os.path.commonprefix(list)	返回list(多个路径)中，所有path共有的最长的路径<br>os.path.dirname(path)	返回文件路径<br>os.path.exists(path)	路径存在则返回True,路径损坏返回False<br>os.path.lexists	路径存在则返回True,路径损坏也返回True<br>os.path.expanduser(path)	把path中包含的"~"和"~user"转换成用户目录<br>os.path.expandvars(path)	根据环境变量的值替换path中包含的"$name"和"${name}"<br>os.path.getatime(path)	返回最近访问时间（浮点型秒数）<br>os.path.getmtime(path)	返回最近文件修改时间<br>os.path.getctime(path)	返回文件 path 创建时间<br>os.path.getsize(path)	返回文件大小，如果文件不存在就返回错误<br>os.path.isabs(path)	判断是否为绝对路径<br>os.path.isfile(path)	判断路径是否为文件<br>os.path.isdir(path)	判断路径是否为目录<br>os.path.islink(path)	判断路径是否为链接<br>os.path.ismount(path)	判断路径是否为挂载点<br>os.path.join(path1[, path2[, ...]])	把目录和文件名合成一个路径<br>os.path.normcase(path)	转换path的大小写和斜杠<br>os.path.normpath(path)	规范path字符串形式<br>os.path.realpath(path)	返回path的真实路径<br>os.path.relpath(path[, start])	从start开始计算相对路径<br>os.path.samefile(path1, path2)	判断目录或文件是否相同<br>os.path.sameopenfile(fp1, fp2)	判断fp1和fp2是否指向同一文件<br>os.path.samestat(stat1, stat2)	判断stat tuple stat1和stat2是否指向同一个文件<br>os.path.split(path)	把路径分割成 dirname 和 basename，返回一个元组<br>os.path.splitdrive(path)	一般用在 windows 下，返回驱动器名和路径组成的元组<br>os.path.splitext(path)	分割路径中的文件名与拓展名<br>os.path.splitunc(path)	把路径分割为加载点与文件<br>os.path.walk(path, visit, arg)	遍历path，进入每个目录都调用visit函数，visit函数必须有3个参数(arg, dirname, names)，dirname表示当前目录的目录名，names代表当前目录下的所有文件名，args则为walk的第三个参数<br>os.path.supports_unicode_filenames	设置是否支持unicode路径名 | [day28](https://gitee.com/Codeofly/LearnPython/tree/master/day28)| [day28](https://github.com/Codeofly/LearnPython/tree/master/day28) |
 |  | [day29](https://gitee.com/Codeofly/LearnPython/tree/master/day29)| [day29](https://github.com/Codeofly/LearnPython/tree/master/day29) |
 |  | [day30](https://gitee.com/Codeofly/LearnPython/tree/master/day30)| [day30](https://github.com/Codeofly/LearnPython/tree/master/day30) |
 |  | [day31](https://gitee.com/Codeofly/LearnPython/tree/master/day31)| [day31](https://github.com/Codeofly/LearnPython/tree/master/day31) |
